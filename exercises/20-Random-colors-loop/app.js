@@ -20,6 +20,7 @@ function getAllStudentColors(){
 	
     //your loop here
     let students = 10;
+    for 
     
 	var exampleColor = getColor(1);
 }
