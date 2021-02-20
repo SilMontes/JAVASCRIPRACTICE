@@ -38,7 +38,7 @@ function addAllFamilyLuckyNumbers(anArray){
 for ( var i=0; i< anArray.length; i++){ 
     //console.log(anArray[i]);
       for (var x=0; x < anArray[i].lucky_numbers.length; x++){
-          sumOfAllLuckyNumbers += x;
+          sumOfAllLuckyNumbers += anArray[i].lucky_numbers[x];
       }
  }
   
